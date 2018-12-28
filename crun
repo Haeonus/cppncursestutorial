@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+g++ $1.cpp -lncurses
+mv a.out $1.run
+./$1.run

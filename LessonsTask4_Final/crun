@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+g++ -lncurses -o LessonsTask4_2.run LessonsTask4_2.cpp Textline.cpp
+./LessonsTask4_2.run
